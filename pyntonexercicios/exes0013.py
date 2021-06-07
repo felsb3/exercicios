@@ -1,4 +1,5 @@
-# Exercicio 13 -- Tendo como dado de entrada a altura (h) de uma pessoa, construa um algoritmo que calcule
+# Estrutura Sequencia Exercício 13 -- Tendo como dado de entrada a altura (h) de uma pessoa,
+# construa um algoritmo que calcule
 # seu peso ideal, utilizando as seguintes fórmulas: Para homens: (72.7h) - 58 Para mulheres: (62.1h) - 44.7
 
 h = float(input('Favor informar sua altura em metros: '))
