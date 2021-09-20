@@ -1,8 +1,3 @@
-# 6 Faça um Programa que peça o raio de um círculo, calcule e mostre sua área.
-import math
-r = float(input('Digite o raio do Circulo em metros:  '))
-a = math.pi*pow(r, 2)
-print(f'A área do circulo é {a} m²')
 # 7 Faça um Programa que calcule a área de um quadrado, em seguida mostre o dobro desta área para o usuário.
 lateral = int(input('informe o tamanho da lateral do quadrado: '))
 dobro_da_area = (lateral * lateral)*2
