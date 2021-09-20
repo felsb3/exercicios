@@ -1,4 +1,6 @@
-# Estrutura de Repetição exercício 12 Desenvolva um gerador de tabuada, capaz de gerar a tabuada de qualquer número
+# Estrutura de Repetição exercício 12 https://wiki.python.org.br/EstruturaDeRepeticao
+
+# Desenvolva um gerador de tabuada, capaz de gerar a tabuada de qualquer número
 # inteiro entre 1 a 10. O usuário deve informar de qual numero ele deseja ver a tabuada.
 
 tabuada = int(input('Tabuada de: '))

@@ -1,4 +1,4 @@
-# Estrutura de repetição Exercício 9
+# Estrutura de repetição exercício 9 https://wiki.python.org.br/EstruturaDeRepeticao
 # Faça um programa que imprima na tela apenas os números ímpares entre 1 e 50.
 
 for i in range(1, 51, 2):
