@@ -9,3 +9,14 @@ elif entrada == 'M':
     print('o sexo inormado foi Masculino')
 else:
     print('Neste caso o sexo ficou Inválido.')
+
+sexo = input('Digite "F" para feminino, "M" para masculino e "I" para não declarar: ').upper()
+print (sexo)
+if sexo == 'M':
+  print ('Masculino')
+elif sexo == 'F':
+  print ('Feminino')
+elif sexo == 'I':
+  print ('Indefinido')
+else:
+  print ('Indefinido')
