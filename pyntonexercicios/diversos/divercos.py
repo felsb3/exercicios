@@ -227,7 +227,7 @@ qtd = 1
 tamanho = 6
 valores = range(1, 60)
 
-listas = [ choices(valores, k=tamanho) for _ in range(qtd) ]
+listas = [choices(valores, k=tamanho) for _ in range(qtd)]
 print(listas)
 
 import random
@@ -241,31 +241,15 @@ while i < 6:
 menu = {1: 'Converter de °C para °F', 2: 'Converter de °F para °C', 3: 'Exit'}
 option = 0
 for key, value in menu.items():
-  print(key, value)
-  option = int (input("Escolha uma opção"))
-  if option == 1:
-      f = float(input('Digite a temperatura em (°F): '))
-      celsius = 5 * ((f - 32) / 9)
-      print(f'Temperatura em (°C) = {celsius} ')
-  elif option == 2:
-      f = float(input('Digite a temperatura em (°F): '))
-      celsius = 5 * ((f - 32) / 9)
-      print(f'Temperatura em (°C) = {celsius} ')
-  elif option == 3:
-      print('Você saiu do programa')
-
-menu = {1: 'Converter de °C para °F', 2: 'Converter de °F para °C', 3: 'Exit'}
-option = 0
-for key, value in menu.items():
-  print(key, value)
-  option = int (input("Escolha uma opção 1: 'Converter de °C para °F', 2: 'Converter de °F para °C', 3: 'Exit': "))
-  if option == 1:
-      f = float(input('Digite a temperatura em (°F): '))
-      celsius = 5 * ((f - 32) / 9)
-      print(f'Temperatura em (°C) = {celsius} ')
-  elif option == 2:
-      f = float(input('Digite a temperatura em (°F): '))
-      celsius = 5 * ((f - 32) / 9)
-      print(f'Temperatura em (°C) = {celsius} ')
-  elif option == 3:
-      print('Você saiu do programa')
+    print(key, value)
+    option = int(input("Escolha uma opção 1: 'Converter de °C para °F', 2: 'Converter de °F para °C', 3: 'Exit': "))
+    if option == 1:
+        C = float(input('Digite aqui a temperatura em Celsius: '))
+        Fahrenheit = ((C / 5) * 9) + 32
+        print(f'{float(Fahrenheit)}° graus Fahrenheit')
+    elif option == 2:
+        f = float(input('Digite a temperatura em (°F): '))
+        celsius = 5 * ((f - 32) / 9)
+        print(f'Temperatura em (°C) = {celsius} ')
+    elif option == 3:
+        print('Você saiu do programa')
