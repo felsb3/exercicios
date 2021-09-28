@@ -16,11 +16,11 @@ def imprimir_triangulo_de_numeros(n: int):
 print('Triangolo com 1')
 imprimir_triangulo_de_numeros(1)
 
-print('Triangolo com 1')
+print('Triangolo com 2')
 imprimir_triangulo_de_numeros(2)
 
-print('Triangolo com 1')
+print('Triangolo com 3')
 imprimir_triangulo_de_numeros(3)
 
-print('Triangolo com 1')
+print('Triangolo com 7')
 imprimir_triangulo_de_numeros(7)
